@@ -1,0 +1,93 @@
+# .gitignore
+
+# 忽略操作系统自动生成的文件
+.DS_Store
+Thumbs.db
+
+# 忽略编辑器和IDE的配置文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+
+# 忽略Node.js项目常见的文件
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# 忽略前端构建工具生成的文件
+dist/
+build/
+*.log
+
+# 忽略项目中的临时文件
+*.tmp
+
+# 忽略项目中的配置文件
+.env
+.env.local
+.env.*.local
+
+# 忽略项目中的自定义配置文件
+config.json
+
+# 忽略项目中的日志文件
+logs/
+log/
+
+# 忽略项目中的测试覆盖率报告
+coverage/
+
+# 忽略项目中的编译后的文件
+*.js.map
+
+# 忽略项目中的缓存文件
+.cache
+
+# 忽略项目中的文档文件
+doc/
+docs/
+
+# 忽略项目中的图片和视频文件
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.ico
+*.mp4
+*.avi
+*.mov
+
+# 忽略项目中的备份文件
+*.bak
+
+# 忽略项目中的数据库文件
+*.db
+*.sqlite
+
+# 忽略项目中的虚拟环境
+venv/
+env/
+ENV/
+
+# 忽略项目中的其他可能的配置文件
+*.sublime-project
+*.sublime-workspace
+
+# 忽略项目中的其他可能的临时文件
+*.log
+*.tmp
+*.temp
+
+# 忽略项目中的其他可能的编译文件
+*.pyc
+*.pyo
+
+# 忽略项目中的其他可能的配置文件
+*.config

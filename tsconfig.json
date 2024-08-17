@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "target": "ES2017",                          // 指定ECMAScript目标版本: 'ES3' (默认), 'ES5', 'ES6/ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019', 'ES2020', 'ESNext'。
+      "module": "es2022",                     // 指定使用模块: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', 'es2020', 'esnext'等。
+      "lib": ["dom", "es5"],                               // 指定要包含在编译中的库文件。
+      "allowJs": false,                        // 允许编译器处理JavaScript文件。
+      "allowImportingTsExtensions":true,
+      "noEmit": true,
+      "moduleResolution":"Node",
+      "esModuleInterop": true,
+    },
+    "include": [
+      "src/**/*"
+    ],
+    "exclude": [
+      "node_modules",
+    ],
+    
+  }
