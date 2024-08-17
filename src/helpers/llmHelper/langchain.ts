@@ -1,17 +1,15 @@
 import { ChatOpenAI } from "@langchain/openai";
 import { HumanMessage, SystemMessage } from "@langchain/core/messages";
-import 'dotenv/config'
+import Config from '../../../config/gptConfig.ts'
 import defaultPrompt from './prompts/index.ts'
 
 import { PromptTemplate } from "@langchain/core/prompts";
 
-const openAiKey = process.env.OPENAI_API_KEY
-
-const model = new ChatOpenAI({
-    model: "gpt-4o",
+const jsonModel = new ChatOpenAI({
+    model: Config.model,
     configuration: {
-        baseURL: "https://api.fe8.cn/v1",
-        apiKey: openAiKey
+        baseURL: Config.baseURL,
+        apiKey: Config.apiKey
     },
     modelKwargs: {
         "response_format": {
@@ -20,12 +18,12 @@ const model = new ChatOpenAI({
     }
 });
 
-const model2 = new ChatOpenAI({
-    model: "gpt-4o",
+const textModel = new ChatOpenAI({
+    model: Config.model,
     configuration: {
-        baseURL: "https://api.fe8.cn/v1",
-        apiKey: openAiKey
-    }
+        baseURL: Config.baseURL,
+        apiKey: Config.apiKey
+    },
 });
 async function getWebCompelite(userPrompt, dataInfo) {
     let prompt = await PromptTemplate.fromTemplate(defaultPrompt.getWebCompelitePromptTemplate).invoke({ info: dataInfo })
@@ -33,7 +31,7 @@ async function getWebCompelite(userPrompt, dataInfo) {
         new SystemMessage(prompt.toString()),
         new HumanMessage(userPrompt)
     ]
-    return await model.invoke(messages);
+    return await jsonModel.invoke(messages);
 }
 
 async function getTableCompelite(domStr, dataInfo, inputLoc) {
@@ -42,7 +40,7 @@ async function getTableCompelite(domStr, dataInfo, inputLoc) {
         new SystemMessage(prompt.toString()),
         new HumanMessage(domStr)
     ]
-    return await model2.invoke(messages);
+    return await textModel.invoke(messages);
 }
 
 async function getReginCompelite(domStr) {
@@ -50,10 +48,10 @@ async function getReginCompelite(domStr) {
         new SystemMessage(defaultPrompt.getReginCompelitePromptTemplate),
         new HumanMessage(domStr)
     ]
-    return await model.invoke(messages);
+    return await jsonModel.invoke(messages);
 }
 
-export { model as llm, getWebCompelite, getTableCompelite, getReginCompelite };
+export { jsonModel as llm, getWebCompelite, getTableCompelite, getReginCompelite };
 
 
 
