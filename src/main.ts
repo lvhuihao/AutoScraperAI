@@ -24,7 +24,7 @@ console.log('开始')
 
 // 打开网站，获取html数据
 const browser = await Puppeteer.launch({
-    headless: false,
+    // headless: false,
     args: [
         // 设置窗口宽度和高度
         '--window-size=1920,1080',
@@ -138,6 +138,9 @@ if (webDataInfo.regionType && webDataInfo.regionSelector) {
         }
     }
 }
+
+// 数据文件整理
+organizeDataFiles()
 
 
 // 关闭浏览器

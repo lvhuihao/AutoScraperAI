@@ -55,6 +55,29 @@ async function sleep(during: number) {
     });
 }
 
+
+function createDictFromCSVs(folderPath: string): Record<string,any
+
+function organizeDataFiles(folderPath: string): Record<string, any[]> {
+    const dictionary: Record<string, any[]> = {};
+    fs.readdirSync(folderPath).forEach((file) => {
+      if (file.endsWith('.csv')) {
+        const filePath = path.join(folderPath, file);
+        const fileContent = fs.readFileSync(filePath, 'utf-8');
+        const lines = fileContent.split('\n');
+  
+        if (lines.length > 0) {
+          const headers = lines[0].split(',');
+          headers.forEach((header) => {
+            dictionary[header] = [];
+          });
+        }
+      }
+    });
+  
+    return dictionary;
+  }
+
 export {
     domEleFilter,
     simplifyDOMString,

@@ -8,6 +8,11 @@ const openai = new OpenAI(
 );
 let prompt = [basePrompt]
 
+/**
+ * 获取OpenAI GPT模型的回复
+ * @param usePrompt - 可选的用户输入提示
+ * @returns 返回AI的回复内容
+ */
 async function getCompelite(usePrompt?: string) {
     if (usePrompt) {
         prompt.push({
@@ -20,9 +25,7 @@ async function getCompelite(usePrompt?: string) {
         model: "gpt-4o",
         response_format: { "type": "text" }
     });
-    // console.log(completion)
     prompt.push(completion.choices[0].message)
-    // console.log(prompt)
     return completion.choices[0].message.content
 }
 

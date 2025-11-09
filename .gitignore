@@ -11,6 +11,7 @@ Thumbs.db
 *.swo
 *.swn
 *.bak
+data/
 
 # 忽略Node.js项目常见的文件
 node_modules/
