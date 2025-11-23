@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AutoScraper AI</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>AutoScraper AI</h1>
+      <p>智能网页分析与操作</p>
+    </div>
+
+    <div class="content">
+      <div class="input-section">
+        <label for="task-input">任务描述</label>
+        <textarea 
+          id="task-input" 
+          placeholder="例如：提取页面中的所有产品信息..."
+          rows="4"
+        ></textarea>
+        <button id="scrape-btn">开始分析</button>
+        <button id="a11y-btn" class="secondary-btn">获取无障碍信息</button>
+      </div>
+
+      <div id="error-message" class="error-message" style="display: none;"></div>
+
+      <div id="result-section" class="result-section" style="display: none;">
+        <h3>分析结果</h3>
+        <div id="result-table-container" class="result-table-container"></div>
+        <div id="result-data" class="result-data"></div>
+        <div id="result-actions" class="result-actions"></div>
+      </div>
+
+      <div id="a11y-section" class="result-section" style="display: none;">
+        <div class="section-header">
+          <h3>无障碍信息</h3>
+          <button id="copy-a11y-btn" class="copy-btn" title="复制到剪贴板">📋</button>
+        </div>
+        <div id="a11y-summary" class="a11y-summary"></div>
+        <div id="a11y-data" class="result-data"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
+

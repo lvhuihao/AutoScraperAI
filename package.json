@@ -1,21 +1,32 @@
 {
-  "name": "AutoScraperAI",
+  "name": "autoscraper-ai",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "type": "module",
+  "description": "Chrome extension for web scraping with AI analysis and automation",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development --watch",
+    "clean": "rm -rf dist"
   },
-  "keywords": [],
+  "keywords": [
+    "chrome-extension",
+    "web-scraping",
+    "ai",
+    "automation"
+  ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chrome": "^0.0.268",
+    "@types/node": "^20.10.0",
+    "@types/sharp": "^0.31.1",
+    "copy-webpack-plugin": "^11.0.0",
+    "sharp": "^0.34.5",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  },
   "dependencies": {
-    "@types/node": "^22.1.0",
-    "dotenv": "^16.4.5",
-    "langchain": "^0.2.12",
-    "node-fetch": "^3.3.2",
-    "puppeteer": "^22.14.0",
-    "ts-node": "^10.9.2"
+    "puppeteer-core": "^24.30.0"
   }
 }

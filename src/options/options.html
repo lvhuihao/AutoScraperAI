@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AutoScraper AI - 设置</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>AutoScraper AI 设置</h1>
+    </div>
+
+    <div class="content">
+      <div class="setting-section">
+        <label for="api-url">API 基础 URL</label>
+        <input 
+          type="text" 
+          id="api-url" 
+          placeholder="http://localhost:3000/api"
+        >
+        <p class="hint">后端 API 的基础 URL，用于 AI 分析和数据处理</p>
+      </div>
+
+      <button id="save-btn">保存设置</button>
+      <div id="save-message" class="save-message" style="display: none;"></div>
+    </div>
+  </div>
+
+  <script src="options.js"></script>
+</body>
+</html>
+

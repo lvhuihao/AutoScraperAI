@@ -1,0 +1,930 @@
+uid=cdp_1 RootWebArea \"零售店列表 - Apple Store 零售店 - Apple (中国大陆)\" focusable url=\"https://www.apple.com.cn/retail/storelist/\"
+  uid=cdp_2 ignored
+    uid=cdp_3 generic
+      uid=cdp_4 complementary \"Choose country or region\"
+        uid=cdp_5 ignored
+          uid=cdp_6 generic
+            uid=cdp_7 StaticText \"Choose another country or region to see content specific to your location and shop online.\"
+              uid=cdp_8 InlineTextBox \"Choose another country or region to see content specific to your location and \"
+              uid=cdp_9 InlineTextBox \"shop online.\"
+          uid=cdp_10 ignored
+            uid=cdp_11 generic
+              uid=cdp_12 button \" United States \" focusable hasPopup=\"menu\"
+                uid=cdp_13 generic
+                  uid=cdp_14 ignored
+                    uid=cdp_15 generic
+                      uid=cdp_16 StaticText \"\"
+                        uid=cdp_17 InlineTextBox \"\"
+                  uid=cdp_18 generic
+                    uid=cdp_19 StaticText \"United States\"
+                      uid=cdp_20 InlineTextBox \"United States\"
+                uid=cdp_21 generic
+                uid=cdp_22 generic
+                  uid=cdp_23 StaticText \"\"
+                    uid=cdp_24 InlineTextBox \"\"
+              uid=cdp_25 ignored
+            uid=cdp_26 button \"Continue\" focusable
+              uid=cdp_27 StaticText \"Continue\"
+                uid=cdp_28 InlineTextBox \"Continue\"
+            uid=cdp_29 button \"Close country or region selector\" focusable invalid=\"false\"
+              uid=cdp_30 image
+      uid=cdp_31 ignored
+        uid=cdp_32 generic
+          uid=cdp_33 ignored
+          uid=cdp_34 navigation \"全部网页\"
+            uid=cdp_35 ignored
+              uid=cdp_36 list
+                uid=cdp_37 listitem level=\"1\"
+                  uid=cdp_38 link \"Apple\" focusable url=\"https://www.apple.com.cn/\"
+                    uid=cdp_39 ignored
+                      uid=cdp_40 image
+                    uid=cdp_41 ignored
+                      uid=cdp_42 StaticText \"Apple\"
+                        uid=cdp_43 InlineTextBox \"Apple\"
+                uid=cdp_44 listitem level=\"1\"
+                  uid=cdp_45 ignored
+                    uid=cdp_46 list
+                      uid=cdp_47 listitem level=\"2\"
+                        uid=cdp_48 link \"商店\" focusable url=\"https://www.apple.com.cn/cn/shop/goto/store\"
+                          uid=cdp_49 ignored
+                            uid=cdp_50 ignored
+                              uid=cdp_51 image
+                            uid=cdp_52 ignored
+                              uid=cdp_53 StaticText \"商店\"
+                                uid=cdp_54 InlineTextBox \"商店\"
+                      uid=cdp_55 listitem level=\"2\"
+                        uid=cdp_56 button \"商店目录\" expandable focusable invalid=\"false\"
+                          uid=cdp_57 ignored
+                            uid=cdp_58 image
+                          uid=cdp_59 ignored
+                            uid=cdp_60 ignored
+                              uid=cdp_61 ignored
+                    uid=cdp_62 ignored
+                      uid=cdp_63 ignored
+                    uid=cdp_64 ignored
+                      uid=cdp_65 ignored
+                    uid=cdp_66 ignored
+                      uid=cdp_67 ignored
+                  uid=cdp_68 ignored
+                    uid=cdp_69 list
+                      uid=cdp_70 listitem level=\"2\"
+                        uid=cdp_71 link \"Mac\" focusable url=\"https://www.apple.com.cn/mac/\"
+                          uid=cdp_72 ignored
+                            uid=cdp_73 ignored
+                              uid=cdp_74 image
+                            uid=cdp_75 ignored
+                              uid=cdp_76 StaticText \"Mac\"
+                                uid=cdp_77 InlineTextBox \"Mac\"
+                      uid=cdp_78 listitem level=\"2\"
+                        uid=cdp_79 button \"Mac 目录\" expandable focusable invalid=\"false\"
+                          uid=cdp_80 ignored
+                            uid=cdp_81 image
+                          uid=cdp_82 ignored
+                            uid=cdp_83 ignored
+                              uid=cdp_84 ignored
+                    uid=cdp_85 ignored
+                      uid=cdp_86 ignored
+                    uid=cdp_87 ignored
+                      uid=cdp_88 ignored
+                    uid=cdp_89 ignored
+                      uid=cdp_90 ignored
+                  uid=cdp_91 ignored
+                    uid=cdp_92 list
+                      uid=cdp_93 listitem level=\"2\"
+                        uid=cdp_94 link \"iPad\" focusable url=\"https://www.apple.com.cn/ipad/\"
+                          uid=cdp_95 ignored
+                            uid=cdp_96 ignored
+                              uid=cdp_97 image
+                            uid=cdp_98 ignored
+                              uid=cdp_99 StaticText \"iPad\"
+                                uid=cdp_100 InlineTextBox \"iPad\"
+                      uid=cdp_101 listitem level=\"2\"
+                        uid=cdp_102 button \"iPad 目录\" expandable focusable invalid=\"false\"
+                          uid=cdp_103 ignored
+                            uid=cdp_104 image
+                          uid=cdp_105 ignored
+                            uid=cdp_106 ignored
+                              uid=cdp_107 ignored
+                    uid=cdp_108 ignored
+                      uid=cdp_109 ignored
+                    uid=cdp_110 ignored
+                      uid=cdp_111 ignored
+                    uid=cdp_112 ignored
+                      uid=cdp_113 ignored
+                  uid=cdp_114 ignored
+                    uid=cdp_115 list
+                      uid=cdp_116 listitem level=\"2\"
+                        uid=cdp_117 link \"iPhone\" focusable url=\"https://www.apple.com.cn/iphone/\"
+                          uid=cdp_118 ignored
+                            uid=cdp_119 ignored
+                              uid=cdp_120 image
+                            uid=cdp_121 ignored
+                              uid=cdp_122 StaticText \"iPhone\"
+                                uid=cdp_123 InlineTextBox \"iPhone\"
+                      uid=cdp_124 listitem level=\"2\"
+                        uid=cdp_125 button \"iPhone 目录\" expandable focusable invalid=\"false\"
+                          uid=cdp_126 ignored
+                            uid=cdp_127 image
+                          uid=cdp_128 ignored
+                            uid=cdp_129 ignored
+                              uid=cdp_130 ignored
+                    uid=cdp_131 ignored
+                      uid=cdp_132 ignored
+                    uid=cdp_133 ignored
+                      uid=cdp_134 ignored
+                    uid=cdp_135 ignored
+                      uid=cdp_136 ignored
+                  uid=cdp_137 ignored
+                    uid=cdp_138 list
+                      uid=cdp_139 listitem level=\"2\"
+                        uid=cdp_140 link \"Watch\" focusable url=\"https://www.apple.com.cn/watch/\"
+                          uid=cdp_141 ignored
+                            uid=cdp_142 ignored
+                              uid=cdp_143 image
+                            uid=cdp_144 ignored
+                              uid=cdp_145 StaticText \"Watch\"
+                                uid=cdp_146 InlineTextBox \"Watch\"
+                      uid=cdp_147 listitem level=\"2\"
+                        uid=cdp_148 button \"Apple Watch 目录\" expandable focusable invalid=\"false\"
+                          uid=cdp_149 ignored
+                            uid=cdp_150 image
+                          uid=cdp_151 ignored
+                            uid=cdp_152 ignored
+                              uid=cdp_153 ignored
+                    uid=cdp_154 ignored
+                      uid=cdp_155 ignored
+                    uid=cdp_156 ignored
+                      uid=cdp_157 ignored
+                    uid=cdp_158 ignored
+                      uid=cdp_159 ignored
+                  uid=cdp_160 ignored
+                    uid=cdp_161 list
+                      uid=cdp_162 listitem level=\"2\"
+                        uid=cdp_163 link \"Vision\" focusable url=\"https://www.apple.com.cn/apple-vision-pro/\"
+                          uid=cdp_164 ignored
+                            uid=cdp_165 ignored
+                              uid=cdp_166 image
+                            uid=cdp_167 ignored
+                              uid=cdp_168 StaticText \"Vision\"
+                                uid=cdp_169 InlineTextBox \"Vision\"
+                      uid=cdp_170 listitem level=\"2\"
+                        uid=cdp_171 button \"Vision 菜单\" expandable focusable invalid=\"false\"
+                          uid=cdp_172 ignored
+                            uid=cdp_173 image
+                          uid=cdp_174 ignored
+                            uid=cdp_175 ignored
+                              uid=cdp_176 ignored
+                    uid=cdp_177 ignored
+                      uid=cdp_178 ignored
+                    uid=cdp_179 ignored
+                      uid=cdp_180 ignored
+                    uid=cdp_181 ignored
+                      uid=cdp_182 ignored
+                  uid=cdp_183 ignored
+                    uid=cdp_184 list
+                      uid=cdp_185 listitem level=\"2\"
+                        uid=cdp_186 link \"AirPods\" focusable url=\"https://www.apple.com.cn/airpods/\"
+                          uid=cdp_187 ignored
+                            uid=cdp_188 ignored
+                              uid=cdp_189 image
+                            uid=cdp_190 ignored
+                              uid=cdp_191 StaticText \"AirPods\"
+                                uid=cdp_192 InlineTextBox \"AirPods\"
+                      uid=cdp_193 listitem level=\"2\"
+                        uid=cdp_194 button \"AirPods 目录\" expandable focusable invalid=\"false\"
+                          uid=cdp_195 ignored
+                            uid=cdp_196 image
+                          uid=cdp_197 ignored
+                            uid=cdp_198 ignored
+                              uid=cdp_199 ignored
+                    uid=cdp_200 ignored
+                      uid=cdp_201 ignored
+                    uid=cdp_202 ignored
+                      uid=cdp_203 ignored
+                    uid=cdp_204 ignored
+                      uid=cdp_205 ignored
+                  uid=cdp_206 ignored
+                    uid=cdp_207 list
+                      uid=cdp_208 listitem level=\"2\"
+                        uid=cdp_209 link \"家居\" focusable url=\"https://www.apple.com.cn/apple-home/\"
+                          uid=cdp_210 ignored
+                            uid=cdp_211 ignored
+                              uid=cdp_212 image
+                            uid=cdp_213 ignored
+                              uid=cdp_214 StaticText \"家居\"
+                                uid=cdp_215 InlineTextBox \"家居\"
+                      uid=cdp_216 listitem level=\"2\"
+                        uid=cdp_217 button \"家居目录\" expandable focusable invalid=\"false\"
+                          uid=cdp_218 ignored
+                            uid=cdp_219 image
+                          uid=cdp_220 ignored
+                            uid=cdp_221 ignored
+                              uid=cdp_222 ignored
+                    uid=cdp_223 ignored
+                      uid=cdp_224 ignored
+                    uid=cdp_225 ignored
+                      uid=cdp_226 ignored
+                    uid=cdp_227 ignored
+                      uid=cdp_228 ignored
+                  uid=cdp_229 ignored
+                    uid=cdp_230 list
+                      uid=cdp_231 listitem level=\"2\"
+                        uid=cdp_232 link \"娱乐\" focusable url=\"https://www.apple.com.cn/entertainment/\"
+                          uid=cdp_233 ignored
+                            uid=cdp_234 ignored
+                              uid=cdp_235 image
+                            uid=cdp_236 ignored
+                              uid=cdp_237 StaticText \"娱乐\"
+                                uid=cdp_238 InlineTextBox \"娱乐\"
+                      uid=cdp_239 listitem level=\"2\"
+                        uid=cdp_240 button \"娱乐目录\" expandable focusable invalid=\"false\"
+                          uid=cdp_241 ignored
+                            uid=cdp_242 image
+                          uid=cdp_243 ignored
+                            uid=cdp_244 ignored
+                              uid=cdp_245 ignored
+                    uid=cdp_246 ignored
+                      uid=cdp_247 ignored
+                    uid=cdp_248 ignored
+                      uid=cdp_249 ignored
+                  uid=cdp_250 ignored
+                    uid=cdp_251 list
+                      uid=cdp_252 listitem level=\"2\"
+                        uid=cdp_253 link \"配件\" focusable url=\"https://www.apple.com.cn/cn/shop/goto/buy_accessories\"
+                          uid=cdp_254 ignored
+                            uid=cdp_255 ignored
+                              uid=cdp_256 image
+                            uid=cdp_257 ignored
+                              uid=cdp_258 StaticText \"配件\"
+                                uid=cdp_259 InlineTextBox \"配件\"
+                      uid=cdp_260 listitem level=\"2\"
+                        uid=cdp_261 button \"配件目录\" expandable focusable invalid=\"false\"
+                          uid=cdp_262 ignored
+                            uid=cdp_263 image
+                          uid=cdp_264 ignored
+                            uid=cdp_265 ignored
+                              uid=cdp_266 ignored
+                    uid=cdp_267 ignored
+                      uid=cdp_268 ignored
+                    uid=cdp_269 ignored
+                      uid=cdp_270 ignored
+                  uid=cdp_271 ignored
+                    uid=cdp_272 list
+                      uid=cdp_273 listitem level=\"2\"
+                        uid=cdp_274 link \"技术支持\" focusable url=\"https://support.apple.com/zh-cn/?cid=gn-ols-home-hp-tab\"
+                          uid=cdp_275 ignored
+                            uid=cdp_276 ignored
+                              uid=cdp_277 image
+                            uid=cdp_278 ignored
+                              uid=cdp_279 StaticText \"技术支持\"
+                                uid=cdp_280 InlineTextBox \"技术支持\"
+                      uid=cdp_281 listitem level=\"2\"
+                        uid=cdp_282 button \"技术支持目录\" expandable focusable invalid=\"false\"
+                          uid=cdp_283 ignored
+                            uid=cdp_284 image
+                          uid=cdp_285 ignored
+                            uid=cdp_286 ignored
+                              uid=cdp_287 ignored
+                    uid=cdp_288 ignored
+                      uid=cdp_289 ignored
+                    uid=cdp_290 ignored
+                      uid=cdp_291 ignored
+                    uid=cdp_292 ignored
+                      uid=cdp_293 ignored
+                uid=cdp_294 listitem level=\"1\"
+                  uid=cdp_295 button \"搜索 apple.com.cn\" focusable
+                    uid=cdp_296 ignored
+                      uid=cdp_297 image
+                    uid=cdp_298 ignored
+                      uid=cdp_299 ignored
+                        uid=cdp_300 ignored
+                  uid=cdp_301 ignored
+                  uid=cdp_302 ignored
+                uid=cdp_303 listitem level=\"1\"
+                  uid=cdp_304 generic
+                    uid=cdp_305 button \"打开购物袋\" focusable
+                      uid=cdp_306 ignored
+                        uid=cdp_307 image
+                      uid=cdp_308 ignored
+                        uid=cdp_309 ignored
+                          uid=cdp_310 ignored
+                    uid=cdp_311 ignored
+          uid=cdp_312 generic
+      uid=cdp_313 generic
+        uid=cdp_314 generic
+          uid=cdp_315 status atomic live=\"polite\" relevant=\"additions text\"
+          uid=cdp_316 main
+            uid=cdp_317 ignored
+              uid=cdp_318 ignored
+                uid=cdp_319 ignored
+                  uid=cdp_320 ignored
+                    uid=cdp_321 heading \"Apple Store 零售店，中国大陆\" level=\"1\"
+                      uid=cdp_322 StaticText \"Apple Store 零售店，中国大陆\"
+                        uid=cdp_323 InlineTextBox \"Apple Store 零售店，中国大陆\"
+                    uid=cdp_324 generic
+                      uid=cdp_325 combobox \"选择国家或地区\" expandable focusable hasPopup=\"menu\" invalid=\"false\" labelledby=\"[object Object]\" value=\"中国大陆\"
+                        uid=cdp_326 MenuListPopup
+                          uid=cdp_327 option \"中国大陆\" focusable selectable selected value=\"中国大陆\"
+                          uid=cdp_328 option \"澳洲\" focusable selectable value=\"澳洲\"
+                          uid=cdp_329 option \"奥地利\" focusable selectable value=\"奥地利\"
+                          uid=cdp_330 option \"比利时\" focusable selectable value=\"比利时\"
+                          uid=cdp_331 option \"巴西\" focusable selectable value=\"巴西\"
+                          uid=cdp_332 option \"加拿大\" focusable selectable value=\"加拿大\"
+                          uid=cdp_333 option \"法国\" focusable selectable value=\"法国\"
+                          uid=cdp_334 option \"德国\" focusable selectable value=\"德国\"
+                          uid=cdp_335 option \"香港\" focusable selectable value=\"香港\"
+                          uid=cdp_336 option \"印度\" focusable selectable value=\"印度\"
+                          uid=cdp_337 option \"意大利\" focusable selectable value=\"意大利\"
+                          uid=cdp_338 option \"日本\" focusable selectable value=\"日本\"
+                          uid=cdp_339 option \"澳门\" focusable selectable value=\"澳门\"
+                          uid=cdp_340 option \"马来西亚\" focusable selectable value=\"马来西亚\"
+                          uid=cdp_341 option \"墨西哥\" focusable selectable value=\"墨西哥\"
+                          uid=cdp_342 option \"荷兰\" focusable selectable value=\"荷兰\"
+                          uid=cdp_343 option \"新加坡\" focusable selectable value=\"新加坡\"
+                          uid=cdp_344 option \"韩国\" focusable selectable value=\"韩国\"
+                          uid=cdp_345 option \"西班牙\" focusable selectable value=\"西班牙\"
+                          uid=cdp_346 option \"瑞典\" focusable selectable value=\"瑞典\"
+                          uid=cdp_347 option \"瑞士\" focusable selectable value=\"瑞士\"
+                          uid=cdp_348 option \"台湾\" focusable selectable value=\"台湾\"
+                          uid=cdp_349 option \"泰国\" focusable selectable value=\"泰国\"
+                          uid=cdp_350 option \"土耳其\" focusable selectable value=\"土耳其\"
+                          uid=cdp_351 option \"阿联酋\" focusable selectable value=\"阿联酋\"
+                          uid=cdp_352 option \"英国\" focusable selectable value=\"英国\"
+                          uid=cdp_353 option \"美国\" focusable selectable value=\"美国\"
+                      uid=cdp_354 ignored
+                        uid=cdp_355 ignored
+                      uid=cdp_356 ignored
+                        uid=cdp_357 ignored
+              uid=cdp_358 ignored
+                uid=cdp_359 ignored
+                  uid=cdp_360 ignored
+                    uid=cdp_361 ignored
+                      uid=cdp_362 ignored
+                        uid=cdp_363 heading \"上海\" level=\"2\"
+                          uid=cdp_364 button \"上海\" expandable focusable invalid=\"false\"
+                            uid=cdp_365 StaticText \"上海\"
+                              uid=cdp_366 InlineTextBox \"上海\"
+                            uid=cdp_367 ignored
+                              uid=cdp_368 ignored
+                                uid=cdp_369 ignored
+                        uid=cdp_370 ignored
+                          uid=cdp_371 ignored
+                        uid=cdp_372 ignored
+                          uid=cdp_373 ignored
+                        uid=cdp_374 ignored
+                          uid=cdp_375 ignored
+                        uid=cdp_376 ignored
+                          uid=cdp_377 ignored
+                        uid=cdp_378 ignored
+                          uid=cdp_379 ignored
+                        uid=cdp_380 ignored
+                          uid=cdp_381 ignored
+                        uid=cdp_382 ignored
+                          uid=cdp_383 ignored
+                        uid=cdp_384 ignored
+                          uid=cdp_385 ignored
+                      uid=cdp_386 ignored
+                        uid=cdp_387 heading \"云南\" level=\"2\"
+                          uid=cdp_388 button \"云南\" expandable focusable invalid=\"false\"
+                            uid=cdp_389 StaticText \"云南\"
+                              uid=cdp_390 InlineTextBox \"云南\"
+                            uid=cdp_391 ignored
+                              uid=cdp_392 ignored
+                                uid=cdp_393 ignored
+                        uid=cdp_394 ignored
+                          uid=cdp_395 ignored
+                      uid=cdp_396 ignored
+                        uid=cdp_397 heading \"北京\" level=\"2\"
+                          uid=cdp_398 button \"北京\" expandable focusable invalid=\"false\"
+                            uid=cdp_399 StaticText \"北京\"
+                              uid=cdp_400 InlineTextBox \"北京\"
+                            uid=cdp_401 ignored
+                              uid=cdp_402 ignored
+                                uid=cdp_403 ignored
+                        uid=cdp_404 ignored
+                          uid=cdp_405 ignored
+                        uid=cdp_406 ignored
+                          uid=cdp_407 ignored
+                        uid=cdp_408 ignored
+                          uid=cdp_409 ignored
+                        uid=cdp_410 ignored
+                          uid=cdp_411 ignored
+                        uid=cdp_412 ignored
+                          uid=cdp_413 ignored
+                      uid=cdp_414 ignored
+                        uid=cdp_415 heading \"四川\" level=\"2\"
+                          uid=cdp_416 button \"四川\" expandable focusable invalid=\"false\"
+                            uid=cdp_417 StaticText \"四川\"
+                              uid=cdp_418 InlineTextBox \"四川\"
+                            uid=cdp_419 ignored
+                              uid=cdp_420 ignored
+                                uid=cdp_421 ignored
+                        uid=cdp_422 ignored
+                          uid=cdp_423 ignored
+                        uid=cdp_424 ignored
+                          uid=cdp_425 ignored
+                      uid=cdp_426 ignored
+                        uid=cdp_427 heading \"天津\" level=\"2\"
+                          uid=cdp_428 button \"天津\" expandable focusable invalid=\"false\"
+                            uid=cdp_429 StaticText \"天津\"
+                              uid=cdp_430 InlineTextBox \"天津\"
+                            uid=cdp_431 ignored
+                              uid=cdp_432 ignored
+                                uid=cdp_433 ignored
+                        uid=cdp_434 ignored
+                          uid=cdp_435 ignored
+                        uid=cdp_436 ignored
+                          uid=cdp_437 ignored
+                        uid=cdp_438 ignored
+                          uid=cdp_439 ignored
+                      uid=cdp_440 ignored
+                        uid=cdp_441 heading \"安徽\" level=\"2\"
+                          uid=cdp_442 button \"安徽\" expandable focusable invalid=\"false\"
+                            uid=cdp_443 StaticText \"安徽\"
+                              uid=cdp_444 InlineTextBox \"安徽\"
+                            uid=cdp_445 ignored
+                              uid=cdp_446 ignored
+                                uid=cdp_447 ignored
+                        uid=cdp_448 ignored
+                          uid=cdp_449 ignored
+                      uid=cdp_450 ignored
+                        uid=cdp_451 heading \"山东\" level=\"2\"
+                          uid=cdp_452 button \"山东\" expandable focusable invalid=\"false\"
+                            uid=cdp_453 StaticText \"山东\"
+                              uid=cdp_454 InlineTextBox \"山东\"
+                            uid=cdp_455 ignored
+                              uid=cdp_456 ignored
+                                uid=cdp_457 ignored
+                        uid=cdp_458 ignored
+                          uid=cdp_459 ignored
+                        uid=cdp_460 ignored
+                          uid=cdp_461 ignored
+                      uid=cdp_462 ignored
+                        uid=cdp_463 heading \"广东\" level=\"2\"
+                          uid=cdp_464 button \"广东\" expandable focusable invalid=\"false\"
+                            uid=cdp_465 StaticText \"广东\"
+                              uid=cdp_466 InlineTextBox \"广东\"
+                            uid=cdp_467 ignored
+                              uid=cdp_468 ignored
+                                uid=cdp_469 ignored
+                        uid=cdp_470 ignored
+                          uid=cdp_471 ignored
+                        uid=cdp_472 ignored
+                          uid=cdp_473 ignored
+                        uid=cdp_474 ignored
+                          uid=cdp_475 ignored
+                        uid=cdp_476 ignored
+                          uid=cdp_477 ignored
+                        uid=cdp_478 ignored
+                          uid=cdp_479 ignored
+                      uid=cdp_480 ignored
+                        uid=cdp_481 heading \"广西壮族自治区\" level=\"2\"
+                          uid=cdp_482 button \"广西壮族自治区\" expandable focusable invalid=\"false\"
+                            uid=cdp_483 StaticText \"广西壮族自治区\"
+                              uid=cdp_484 InlineTextBox \"广西壮族自治区\"
+                            uid=cdp_485 ignored
+                              uid=cdp_486 ignored
+                                uid=cdp_487 ignored
+                        uid=cdp_488 ignored
+                          uid=cdp_489 ignored
+                      uid=cdp_490 ignored
+                        uid=cdp_491 heading \"江苏\" level=\"2\"
+                          uid=cdp_492 button \"江苏\" expandable focusable invalid=\"false\"
+                            uid=cdp_493 StaticText \"江苏\"
+                              uid=cdp_494 InlineTextBox \"江苏\"
+                            uid=cdp_495 ignored
+                              uid=cdp_496 ignored
+                                uid=cdp_497 ignored
+                        uid=cdp_498 ignored
+                          uid=cdp_499 ignored
+                        uid=cdp_500 ignored
+                          uid=cdp_501 ignored
+                        uid=cdp_502 ignored
+                          uid=cdp_503 ignored
+                        uid=cdp_504 ignored
+                          uid=cdp_505 ignored
+                        uid=cdp_506 ignored
+                          uid=cdp_507 ignored
+                      uid=cdp_508 ignored
+                        uid=cdp_509 heading \"河南\" level=\"2\"
+                          uid=cdp_510 button \"河南\" expandable focusable invalid=\"false\"
+                            uid=cdp_511 StaticText \"河南\"
+                              uid=cdp_512 InlineTextBox \"河南\"
+                            uid=cdp_513 ignored
+                              uid=cdp_514 ignored
+                                uid=cdp_515 ignored
+                        uid=cdp_516 ignored
+                          uid=cdp_517 ignored
+                      uid=cdp_518 ignored
+                        uid=cdp_519 heading \"浙江\" level=\"2\"
+                          uid=cdp_520 button \"浙江\" expandable focusable invalid=\"false\"
+                            uid=cdp_521 StaticText \"浙江\"
+                              uid=cdp_522 InlineTextBox \"浙江\"
+                            uid=cdp_523 ignored
+                              uid=cdp_524 ignored
+                                uid=cdp_525 ignored
+                        uid=cdp_526 ignored
+                          uid=cdp_527 ignored
+                        uid=cdp_528 ignored
+                          uid=cdp_529 ignored
+                        uid=cdp_530 ignored
+                          uid=cdp_531 ignored
+                        uid=cdp_532 ignored
+                          uid=cdp_533 ignored
+                      uid=cdp_534 ignored
+                        uid=cdp_535 heading \"湖北\" level=\"2\"
+                          uid=cdp_536 button \"湖北\" expandable focusable invalid=\"false\"
+                            uid=cdp_537 StaticText \"湖北\"
+                              uid=cdp_538 InlineTextBox \"湖北\"
+                            uid=cdp_539 ignored
+                              uid=cdp_540 ignored
+                                uid=cdp_541 ignored
+                        uid=cdp_542 ignored
+                          uid=cdp_543 ignored
+                      uid=cdp_544 ignored
+                        uid=cdp_545 heading \"湖南\" level=\"2\"
+                          uid=cdp_546 button \"湖南\" expandable focusable invalid=\"false\"
+                            uid=cdp_547 StaticText \"湖南\"
+                              uid=cdp_548 InlineTextBox \"湖南\"
+                            uid=cdp_549 ignored
+                              uid=cdp_550 ignored
+                                uid=cdp_551 ignored
+                        uid=cdp_552 ignored
+                          uid=cdp_553 ignored
+                      uid=cdp_554 ignored
+                        uid=cdp_555 heading \"福建\" level=\"2\"
+                          uid=cdp_556 button \"福建\" expandable focusable invalid=\"false\"
+                            uid=cdp_557 StaticText \"福建\"
+                              uid=cdp_558 InlineTextBox \"福建\"
+                            uid=cdp_559 ignored
+                              uid=cdp_560 ignored
+                                uid=cdp_561 ignored
+                        uid=cdp_562 ignored
+                          uid=cdp_563 ignored
+                        uid=cdp_564 ignored
+                          uid=cdp_565 ignored
+                      uid=cdp_566 ignored
+                        uid=cdp_567 heading \"辽宁\" level=\"2\"
+                          uid=cdp_568 button \"辽宁\" expandable focusable invalid=\"false\"
+                            uid=cdp_569 StaticText \"辽宁\"
+                              uid=cdp_570 InlineTextBox \"辽宁\"
+                            uid=cdp_571 ignored
+                              uid=cdp_572 ignored
+                                uid=cdp_573 ignored
+                        uid=cdp_574 ignored
+                          uid=cdp_575 ignored
+                        uid=cdp_576 ignored
+                          uid=cdp_577 ignored
+                        uid=cdp_578 ignored
+                          uid=cdp_579 ignored
+                        uid=cdp_580 ignored
+                          uid=cdp_581 ignored
+                      uid=cdp_582 ignored
+                        uid=cdp_583 heading \"重庆\" level=\"2\"
+                          uid=cdp_584 button \"重庆\" expandable focusable invalid=\"false\"
+                            uid=cdp_585 StaticText \"重庆\"
+                              uid=cdp_586 InlineTextBox \"重庆\"
+                            uid=cdp_587 ignored
+                              uid=cdp_588 ignored
+                                uid=cdp_589 ignored
+                        uid=cdp_590 ignored
+                          uid=cdp_591 ignored
+                        uid=cdp_592 ignored
+                          uid=cdp_593 ignored
+                        uid=cdp_594 ignored
+                          uid=cdp_595 ignored
+      uid=cdp_596 contentinfo \"Apple Footer\" labelledby=\"[object Object]\"
+        uid=cdp_597 ignored
+          uid=cdp_598 heading \"Apple Footer\" level=\"2\"
+            uid=cdp_599 StaticText \"Apple Footer\"
+              uid=cdp_600 InlineTextBox \"Apple \"
+              uid=cdp_601 InlineTextBox \"Footer\"
+          uid=cdp_602 generic
+          uid=cdp_603 navigation \"Breadcrumbs\"
+            uid=cdp_604 link \"Apple\" focusable url=\"https://www.apple.com.cn/\"
+              uid=cdp_605 ignored
+                uid=cdp_606 StaticText \"Apple\"
+                  uid=cdp_607 InlineTextBox \"Apple\"
+            uid=cdp_608 generic
+              uid=cdp_609 list
+                uid=cdp_610 listitem level=\"1\"
+                  uid=cdp_611 generic
+                  uid=cdp_612 link \"零售店\" focusable url=\"https://www.apple.com.cn/retail/\"
+                    uid=cdp_613 StaticText \"零售店\"
+                      uid=cdp_614 InlineTextBox \"零售店\"
+                uid=cdp_615 listitem level=\"1\"
+                  uid=cdp_616 generic
+                  uid=cdp_617 StaticText \"零售店列表\"
+                    uid=cdp_618 InlineTextBox \"零售店列表\"
+          uid=cdp_619 ignored
+            uid=cdp_620 navigation \"Apple 网站目录\"
+              uid=cdp_621 ignored
+                uid=cdp_622 ignored
+                  uid=cdp_623 heading \"选购及了解\" level=\"3\"
+                    uid=cdp_624 ignored
+                      uid=cdp_625 StaticText \"选购及了解\"
+                        uid=cdp_626 InlineTextBox \"选购及了解\"
+                  uid=cdp_627 list
+                    uid=cdp_628 listitem level=\"1\"
+                      uid=cdp_629 link \"商店\" focusable url=\"https://www.apple.com.cn/cn/shop/goto/store\"
+                        uid=cdp_630 StaticText \"商店\"
+                          uid=cdp_631 InlineTextBox \"商店\"
+                    uid=cdp_632 listitem level=\"1\"
+                      uid=cdp_633 link \"Mac\" focusable url=\"https://www.apple.com.cn/mac/\"
+                        uid=cdp_634 StaticText \"Mac\"
+                          uid=cdp_635 InlineTextBox \"Mac\"
+                    uid=cdp_636 listitem level=\"1\"
+                      uid=cdp_637 link \"iPad\" focusable url=\"https://www.apple.com.cn/ipad/\"
+                        uid=cdp_638 StaticText \"iPad\"
+                          uid=cdp_639 InlineTextBox \"iPad\"
+                    uid=cdp_640 listitem level=\"1\"
+                      uid=cdp_641 link \"iPhone\" focusable url=\"https://www.apple.com.cn/iphone/\"
+                        uid=cdp_642 StaticText \"iPhone\"
+                          uid=cdp_643 InlineTextBox \"iPhone\"
+                    uid=cdp_644 listitem level=\"1\"
+                      uid=cdp_645 link \"Watch\" focusable url=\"https://www.apple.com.cn/watch/\"
+                        uid=cdp_646 StaticText \"Watch\"
+                          uid=cdp_647 InlineTextBox \"Watch\"
+                    uid=cdp_648 listitem level=\"1\"
+                      uid=cdp_649 link \"Vision\" focusable url=\"https://www.apple.com.cn/apple-vision-pro/\"
+                        uid=cdp_650 StaticText \"Vision\"
+                          uid=cdp_651 InlineTextBox \"Vision\"
+                    uid=cdp_652 listitem level=\"1\"
+                      uid=cdp_653 link \"AirPods\" focusable url=\"https://www.apple.com.cn/airpods/\"
+                        uid=cdp_654 StaticText \"AirPods\"
+                          uid=cdp_655 InlineTextBox \"AirPods\"
+                    uid=cdp_656 listitem level=\"1\"
+                      uid=cdp_657 link \"家居\" focusable url=\"https://www.apple.com.cn/apple-home/\"
+                        uid=cdp_658 StaticText \"家居\"
+                          uid=cdp_659 InlineTextBox \"家居\"
+                    uid=cdp_660 listitem level=\"1\"
+                      uid=cdp_661 link \"AirTag\" focusable url=\"https://www.apple.com.cn/airtag/\"
+                        uid=cdp_662 StaticText \"AirTag\"
+                          uid=cdp_663 InlineTextBox \"AirTag\"
+                    uid=cdp_664 listitem level=\"1\"
+                      uid=cdp_665 link \"配件\" focusable url=\"https://www.apple.com.cn/cn/shop/goto/buy_accessories\"
+                        uid=cdp_666 StaticText \"配件\"
+                          uid=cdp_667 InlineTextBox \"配件\"
+                    uid=cdp_668 listitem level=\"1\"
+                      uid=cdp_669 link \"App Store 充值卡\" focusable url=\"https://www.apple.com.cn/cn/shop/goto/giftcards\"
+                        uid=cdp_670 StaticText \"App Store 充值卡\"
+                          uid=cdp_671 InlineTextBox \"App Store 充值卡\"
+                uid=cdp_672 ignored
+                  uid=cdp_673 heading \"Apple 钱包\" level=\"3\"
+                    uid=cdp_674 ignored
+                      uid=cdp_675 StaticText \"Apple 钱包\"
+                        uid=cdp_676 InlineTextBox \"Apple 钱包\"
+                  uid=cdp_677 list
+                    uid=cdp_678 listitem level=\"1\"
+                      uid=cdp_679 link \"Apple Pay\" focusable url=\"https://www.apple.com.cn/apple-pay/\"
+                        uid=cdp_680 StaticText \"Apple Pay\"
+                          uid=cdp_681 InlineTextBox \"Apple Pay\"
+                    uid=cdp_682 listitem level=\"1\"
+                      uid=cdp_683 link \"Apple Pay 公交\" focusable url=\"https://www.apple.com.cn/apple-pay/transit/\"
+                        uid=cdp_684 StaticText \"Apple Pay 公交\"
+                          uid=cdp_685 InlineTextBox \"Apple Pay 公交\"
+              uid=cdp_686 ignored
+                uid=cdp_687 ignored
+                  uid=cdp_688 heading \"账户\" level=\"3\"
+                    uid=cdp_689 ignored
+                      uid=cdp_690 StaticText \"账户\"
+                        uid=cdp_691 InlineTextBox \"账户\"
+                  uid=cdp_692 list
+                    uid=cdp_693 listitem level=\"1\"
+                      uid=cdp_694 link \"管理你的 Apple 账户\" focusable url=\"https://account.apple.com/cn/\"
+                        uid=cdp_695 StaticText \"管理你的 Apple 账户\"
+                          uid=cdp_696 InlineTextBox \"管理你的 Apple 账户\"
+                    uid=cdp_697 listitem level=\"1\"
+                      uid=cdp_698 link \"Apple Store 账户\" focusable url=\"https://www.apple.com.cn/cn/shop/goto/account\"
+                        uid=cdp_699 StaticText \"Apple Store 账户\"
+                          uid=cdp_700 InlineTextBox \"Apple Store 账户\"
+                    uid=cdp_701 listitem level=\"1\"
+                      uid=cdp_702 link \"iCloud.com\" focusable url=\"https://www.icloud.com/\"
+                        uid=cdp_703 StaticText \"iCloud.com\"
+                          uid=cdp_704 InlineTextBox \"iCloud.com\"
+                uid=cdp_705 ignored
+                  uid=cdp_706 heading \"娱乐\" level=\"3\"
+                    uid=cdp_707 ignored
+                      uid=cdp_708 StaticText \"娱乐\"
+                        uid=cdp_709 InlineTextBox \"娱乐\"
+                  uid=cdp_710 list
+                    uid=cdp_711 listitem level=\"1\"
+                      uid=cdp_712 link \"Apple Music\" focusable url=\"https://www.apple.com.cn/apple-music/\"
+                        uid=cdp_713 StaticText \"Apple Music\"
+                          uid=cdp_714 InlineTextBox \"Apple Music\"
+                    uid=cdp_715 listitem level=\"1\"
+                      uid=cdp_716 link \"Apple 播客\" focusable url=\"https://www.apple.com.cn/apple-podcasts/\"
+                        uid=cdp_717 StaticText \"Apple 播客\"
+                          uid=cdp_718 InlineTextBox \"Apple 播客\"
+                    uid=cdp_719 listitem level=\"1\"
+                      uid=cdp_720 link \"App Store\" focusable url=\"https://www.apple.com.cn/app-store/\"
+                        uid=cdp_721 StaticText \"App Store\"
+                          uid=cdp_722 InlineTextBox \"App Store\"
+              uid=cdp_723 ignored
+                uid=cdp_724 ignored
+                  uid=cdp_725 heading \"Apple Store 商店\" level=\"3\"
+                    uid=cdp_726 ignored
+                      uid=cdp_727 StaticText \"Apple Store 商店\"
+                        uid=cdp_728 InlineTextBox \"Apple Store 商店\"
+                  uid=cdp_729 list
+                    uid=cdp_730 listitem level=\"1\"
+                      uid=cdp_731 link \"查找零售店\" focusable url=\"https://www.apple.com.cn/retail/\"
+                        uid=cdp_732 StaticText \"查找零售店\"
+                          uid=cdp_733 InlineTextBox \"查找零售店\"
+                    uid=cdp_734 listitem level=\"1\"
+                      uid=cdp_735 link \"Genius Bar 天才吧\" focusable url=\"https://www.apple.com.cn/retail/geniusbar/\"
+                        uid=cdp_736 StaticText \"Genius Bar 天才吧\"
+                          uid=cdp_737 InlineTextBox \"Genius Bar 天才吧\"
+                    uid=cdp_738 listitem level=\"1\"
+                      uid=cdp_739 link \"Today at Apple\" focusable url=\"https://www.apple.com.cn/today/\"
+                        uid=cdp_740 StaticText \"Today at Apple\"
+                          uid=cdp_741 InlineTextBox \"Today at Apple\"
+                    uid=cdp_742 listitem level=\"1\"
+                      uid=cdp_743 link \"团体预约\" focusable url=\"https://www.apple.com.cn/today/groups/\"
+                        uid=cdp_744 StaticText \"团体预约\"
+                          uid=cdp_745 InlineTextBox \"团体预约\"
+                    uid=cdp_746 listitem level=\"1\"
+                      uid=cdp_747 link \"Apple 夏令营\" focusable url=\"https://www.apple.com.cn/today/camp/\"
+                        uid=cdp_748 StaticText \"Apple 夏令营\"
+                          uid=cdp_749 InlineTextBox \"Apple 夏令营\"
+                    uid=cdp_750 listitem level=\"1\"
+                      uid=cdp_751 link \"Apple Store App\" focusable url=\"https://apps.apple.com/cn/app/apple-store/id375380948\"
+                        uid=cdp_752 StaticText \"Apple Store App\"
+                          uid=cdp_753 InlineTextBox \"Apple Store App\"
+                    uid=cdp_754 listitem level=\"1\"
+                      uid=cdp_755 link \"认证的翻新产品\" focusable url=\"https://www.apple.com.cn/cn/shop/goto/special_deals\"
+                        uid=cdp_756 StaticText \"认证的翻新产品\"
+                          uid=cdp_757 InlineTextBox \"认证的翻新产品\"
+                    uid=cdp_758 listitem level=\"1\"
+                      uid=cdp_759 link \"Apple Trade In 换购计划\" focusable url=\"https://www.apple.com.cn/cn/shop/goto/trade_in\"
+                        uid=cdp_760 StaticText \"Apple Trade In 换购计划\"
+                          uid=cdp_761 InlineTextBox \"Apple Trade In 换购计划\"
+                    uid=cdp_762 listitem level=\"1\"
+                      uid=cdp_763 link \"分期付款\" focusable url=\"https://www.apple.com.cn/cn/shop/goto/ww/financing\"
+                        uid=cdp_764 StaticText \"分期付款\"
+                          uid=cdp_765 InlineTextBox \"分期付款\"
+                    uid=cdp_766 listitem level=\"1\"
+                      uid=cdp_767 link \"订单状态\" focusable url=\"https://www.apple.com.cn/cn/shop/goto/order/list\"
+                        uid=cdp_768 StaticText \"订单状态\"
+                          uid=cdp_769 InlineTextBox \"订单状态\"
+                    uid=cdp_770 listitem level=\"1\"
+                      uid=cdp_771 link \"选购帮助\" focusable url=\"https://www.apple.com.cn/cn/shop/goto/help\"
+                        uid=cdp_772 StaticText \"选购帮助\"
+                          uid=cdp_773 InlineTextBox \"选购帮助\"
+              uid=cdp_774 ignored
+                uid=cdp_775 ignored
+                  uid=cdp_776 heading \"商务应用\" level=\"3\"
+                    uid=cdp_777 ignored
+                      uid=cdp_778 StaticText \"商务应用\"
+                        uid=cdp_779 InlineTextBox \"商务应用\"
+                  uid=cdp_780 list
+                    uid=cdp_781 listitem level=\"1\"
+                      uid=cdp_782 link \"Apple 与商务\" focusable url=\"https://www.apple.com.cn/business/\"
+                        uid=cdp_783 StaticText \"Apple 与商务\"
+                          uid=cdp_784 InlineTextBox \"Apple 与商务\"
+                    uid=cdp_785 listitem level=\"1\"
+                      uid=cdp_786 link \"商务选购\" focusable url=\"https://www.apple.com.cn/retail/business/\"
+                        uid=cdp_787 StaticText \"商务选购\"
+                          uid=cdp_788 InlineTextBox \"商务选购\"
+                uid=cdp_789 ignored
+                  uid=cdp_790 heading \"教育应用\" level=\"3\"
+                    uid=cdp_791 ignored
+                      uid=cdp_792 StaticText \"教育应用\"
+                        uid=cdp_793 InlineTextBox \"教育应用\"
+                  uid=cdp_794 list
+                    uid=cdp_795 listitem level=\"1\"
+                      uid=cdp_796 link \"Apple 与教育\" focusable url=\"https://www.apple.com.cn/education/\"
+                        uid=cdp_797 StaticText \"Apple 与教育\"
+                          uid=cdp_798 InlineTextBox \"Apple 与教育\"
+                    uid=cdp_799 listitem level=\"1\"
+                      uid=cdp_800 link \"高校师生选购\" focusable url=\"https://www.apple.com.cn/cn/shop/goto/educationrouting\"
+                        uid=cdp_801 StaticText \"高校师生选购\"
+                          uid=cdp_802 InlineTextBox \"高校师生选购\"
+              uid=cdp_803 ignored
+                uid=cdp_804 ignored
+                  uid=cdp_805 heading \"Apple 价值观\" level=\"3\"
+                    uid=cdp_806 ignored
+                      uid=cdp_807 StaticText \"Apple 价值观\"
+                        uid=cdp_808 InlineTextBox \"Apple 价值观\"
+                  uid=cdp_809 list
+                    uid=cdp_810 listitem level=\"1\"
+                      uid=cdp_811 link \"辅助功能\" focusable url=\"https://www.apple.com.cn/accessibility/\"
+                        uid=cdp_812 StaticText \"辅助功能\"
+                          uid=cdp_813 InlineTextBox \"辅助功能\"
+                    uid=cdp_814 listitem level=\"1\"
+                      uid=cdp_815 link \"教育\" focusable url=\"https://www.apple.com.cn/education-initiative/\"
+                        uid=cdp_816 StaticText \"教育\"
+                          uid=cdp_817 InlineTextBox \"教育\"
+                    uid=cdp_818 listitem level=\"1\"
+                      uid=cdp_819 link \"环境责任\" focusable url=\"https://www.apple.com.cn/environment/\"
+                        uid=cdp_820 StaticText \"环境责任\"
+                          uid=cdp_821 InlineTextBox \"环境责任\"
+                    uid=cdp_822 listitem level=\"1\"
+                      uid=cdp_823 link \"隐私\" focusable url=\"https://www.apple.com.cn/privacy/\"
+                        uid=cdp_824 StaticText \"隐私\"
+                          uid=cdp_825 InlineTextBox \"隐私\"
+                    uid=cdp_826 listitem level=\"1\"
+                      uid=cdp_827 link \"供应链创新\" focusable url=\"https://www.apple.com.cn/supply-chain/\"
+                        uid=cdp_828 StaticText \"供应链创新\"
+                          uid=cdp_829 InlineTextBox \"供应链创新\"
+                uid=cdp_830 ignored
+                  uid=cdp_831 heading \"关于 Apple\" level=\"3\"
+                    uid=cdp_832 ignored
+                      uid=cdp_833 StaticText \"关于 Apple\"
+                        uid=cdp_834 InlineTextBox \"关于 Apple\"
+                  uid=cdp_835 list
+                    uid=cdp_836 listitem level=\"1\"
+                      uid=cdp_837 link \"Newsroom\" focusable url=\"https://www.apple.com.cn/newsroom/\"
+                        uid=cdp_838 StaticText \"Newsroom\"
+                          uid=cdp_839 InlineTextBox \"Newsroom\"
+                    uid=cdp_840 listitem level=\"1\"
+                      uid=cdp_841 link \"Apple 管理层\" focusable url=\"https://www.apple.com.cn/leadership/\"
+                        uid=cdp_842 StaticText \"Apple 管理层\"
+                          uid=cdp_843 InlineTextBox \"Apple 管理层\"
+                    uid=cdp_844 listitem level=\"1\"
+                      uid=cdp_845 link \"工作机会\" focusable url=\"https://www.apple.com/careers/cn/\"
+                        uid=cdp_846 StaticText \"工作机会\"
+                          uid=cdp_847 InlineTextBox \"工作机会\"
+                    uid=cdp_848 listitem level=\"1\"
+                      uid=cdp_849 link \"创造就业\" focusable url=\"https://www.apple.com.cn/job-creation/\"
+                        uid=cdp_850 StaticText \"创造就业\"
+                          uid=cdp_851 InlineTextBox \"创造就业\"
+                    uid=cdp_852 listitem level=\"1\"
+                      uid=cdp_853 link \"商业道德与合规性\" focusable url=\"https://www.apple.com/compliance/\"
+                        uid=cdp_854 StaticText \"商业道德与合规性\"
+                          uid=cdp_855 InlineTextBox \"商业道德与合规性\"
+                    uid=cdp_856 listitem level=\"1\"
+                      uid=cdp_857 link \"活动\" focusable url=\"https://www.apple.com.cn/apple-events/\"
+                        uid=cdp_858 StaticText \"活动\"
+                          uid=cdp_859 InlineTextBox \"活动\"
+                    uid=cdp_860 listitem level=\"1\"
+                      uid=cdp_861 link \"联系 Apple\" focusable url=\"https://www.apple.com.cn/contact/\"
+                        uid=cdp_862 StaticText \"联系 Apple\"
+                          uid=cdp_863 InlineTextBox \"联系 Apple\"
+            uid=cdp_864 generic
+              uid=cdp_865 generic
+                uid=cdp_866 StaticText \"更多选购方式：\"
+                  uid=cdp_867 InlineTextBox \"更多选购方式：\"
+                uid=cdp_868 link \"查找你附近的 Apple Store 零售店\" focusable url=\"https://www.apple.com.cn/retail/\"
+                  uid=cdp_869 StaticText \"查找你附近的 Apple Store 零售店\"
+                    uid=cdp_870 InlineTextBox \"查找你附近的 Apple Store 零售店\"
+                uid=cdp_871 StaticText \"及\"
+                  uid=cdp_872 InlineTextBox \"及\"
+                uid=cdp_873 link \"更多门店\" focusable url=\"https://locate.apple.com/cn/zh/\"
+                  uid=cdp_874 StaticText \"更多门店\"
+                    uid=cdp_875 InlineTextBox \"更多门店\"
+                uid=cdp_876 StaticText \"，\"
+                  uid=cdp_877 InlineTextBox \"，\"
+                uid=cdp_878 generic
+                  uid=cdp_879 StaticText \"或者致电 \"
+                    uid=cdp_880 InlineTextBox \"或者致电 \"
+                  uid=cdp_881 link \"400-666-8800\" focusable url=\"tel:400-666-8800\"
+                    uid=cdp_882 StaticText \"400-666-8800\"
+                      uid=cdp_883 InlineTextBox \"400-666-8800\"
+                  uid=cdp_884 StaticText \"。\"
+                    uid=cdp_885 InlineTextBox \"。\"
+              uid=cdp_886 generic
+                uid=cdp_887 generic
+                  uid=cdp_888 StaticText \"Copyright © 2025 Apple Inc. 保留所有权利。\"
+                    uid=cdp_889 InlineTextBox \"Copyright © 2025 Apple Inc. 保留所有权利。\"
+                uid=cdp_890 list
+                  uid=cdp_891 listitem level=\"1\"
+                    uid=cdp_892 generic
+                    uid=cdp_893 link \"隐私政策\" focusable url=\"https://www.apple.com.cn/legal/privacy/\"
+                      uid=cdp_894 StaticText \"隐私政策\"
+                        uid=cdp_895 InlineTextBox \"隐私政策\"
+                    uid=cdp_896 generic
+                  uid=cdp_897 listitem level=\"1\"
+                    uid=cdp_898 generic
+                    uid=cdp_899 link \"使用条款\" focusable url=\"https://www.apple.com.cn/legal/internet-services/terms/site.html\"
+                      uid=cdp_900 StaticText \"使用条款\"
+                        uid=cdp_901 InlineTextBox \"使用条款\"
+                    uid=cdp_902 generic
+                  uid=cdp_903 listitem level=\"1\"
+                    uid=cdp_904 generic
+                    uid=cdp_905 link \"销售政策\" focusable url=\"https://www.apple.com.cn/cn/shop/goto/help/sales_refunds\"
+                      uid=cdp_906 StaticText \"销售政策\"
+                        uid=cdp_907 InlineTextBox \"销售政策\"
+                    uid=cdp_908 generic
+                  uid=cdp_909 listitem level=\"1\"
+                    uid=cdp_910 generic
+                    uid=cdp_911 link \"法律信息\" focusable url=\"https://www.apple.com.cn/legal/\"
+                      uid=cdp_912 StaticText \"法律信息\"
+                        uid=cdp_913 InlineTextBox \"法律信息\"
+                    uid=cdp_914 generic
+                  uid=cdp_915 listitem level=\"1\"
+                    uid=cdp_916 generic
+                    uid=cdp_917 link \"网站地图\" focusable url=\"https://www.apple.com.cn/sitemap/\"
+                      uid=cdp_918 StaticText \"网站地图\"
+                        uid=cdp_919 InlineTextBox \"网站地图\"
+      uid=cdp_920 ignored
+        uid=cdp_921 ignored
+      uid=cdp_922 generic
+        uid=cdp_923 alert atomic live=\"assertive\" relevant=\"additions text\"
+      uid=cdp_924 generic
+        uid=cdp_925 ignored
+          uid=cdp_926 generic
+      uid=cdp_927 button focusable invalid=\"false\"
+      uid=cdp_928 ignored
+        uid=cdp_929 ignored
+          uid=cdp_930 generic
